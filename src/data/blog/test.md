@@ -5,7 +5,7 @@ pubDatetime: 2026-01-15T22:00:00+08:00
 
 # slug: 
 featured: false
-draft: true
+draft: false
 tags:
   - TypeScript
   - Astro
@@ -18,3 +18,8 @@ Users cannot see this post because it is in draft.
 ## Motivation
 
 rec 1
+
+こんにちは
+cześć
+привет
+你好
