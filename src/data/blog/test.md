@@ -23,3 +23,8 @@ rec 1
 cześć
 привет
 你好
+
+
+$$ 
+\phi(x) = \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}} 
+$$
