@@ -61,13 +61,28 @@ export default defineConfig({
     preserveScriptOrder: true,
     fonts: [
       {
-        name: "Google Sans Code",
-        cssVariable: "--font-google-sans-code",
-        provider: fontProviders.google(),
-        fallbacks: ["monospace"],
+        name: "Open Sans",
+        cssVariable: "--font-open-sans-code",
+        provider: fontProviders.fontsource(),
+        fallbacks: ["sans-serif"],
+        subsets: ["latin", "cyrillic"],
         weights: [300, 400, 500, 600, 700],
         styles: ["normal", "italic"],
       },
+      // {
+      //   name: "Noto Serif Japanese",
+      //   cssVariable: "--font-noto-serif-japanese-code",
+      //   provider: fontProviders.google(),
+      //   subsets: ["japanese"],
+      //   weights: [400, 500, 600, 700],
+      // },
+      // {
+      //   name: "Noto Sans SC",
+      //   cssVariable: "--font-noto-sans-sc-code",
+      //   provider: fontProviders.fontsource(),
+      //   subsets: ["chinese(simplified)"],
+      //   weights: [400, 500, 600, 700],
+      // },
     ],
   },
 });
